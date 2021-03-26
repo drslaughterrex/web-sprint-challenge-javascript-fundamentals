@@ -259,20 +259,22 @@ class CuboidMakerTwo {
 		return this.length * this.width * this.height;
 	}
 	surfaceArea() {
-		return 2 *
-		(this.length * this.width +
-			this.length * this.height +
-			this.width * this.height)
+		return (
+			2 *
+			(this.length * this.width +
+				this.length * this.height +
+				this.width * this.height)
+		);
 	}
 }
 
 class cuboidTwo extends CuboidMakerTwo {
-  constructor(attributes){
-    super(attributes)
-    this.length = 4;
-    this.width = 5;
-    this.height = 5;
-  }
+	constructor(attributes) {
+		super(attributes);
+		this.length = 4;
+		this.width = 5;
+		this.height = 5;
+	}
 }
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
