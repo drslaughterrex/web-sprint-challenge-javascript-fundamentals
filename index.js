@@ -2,6 +2,8 @@
 /* 🚀🚀🚀🤓 Task 1: 🤓🚀🚀🚀 
 Study the code below and explain in your own words why nested function can access the variable internal. */
 
+// Functions act like one-way glass, where they can see out from the inside, but not the opposite way.
+
 const external = "I'm outside the function";
 
 function myFunction() {
