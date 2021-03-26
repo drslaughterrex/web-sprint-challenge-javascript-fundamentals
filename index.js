@@ -266,7 +266,7 @@ class CuboidMakerTwo {
 	}
 }
 
-class cuboidChild extends CuboidMakerTwo {
+class cuboidTwo extends CuboidMakerTwo {
   constructor(attributes){
     super(attributes)
     this.length = 4;
