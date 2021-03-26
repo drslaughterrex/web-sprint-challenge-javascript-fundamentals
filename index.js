@@ -256,16 +256,22 @@ class CuboidMakerTwo {
 		this.height = attributes.height;
 	}
 	volume() {
-		return this.volume();
+		return this.length * this.width * this.height;
 	}
 	surfaceArea() {
-		return this.surfaceArea();
+		return 2 *
+		(this.length * this.width +
+			this.length * this.height +
+			this.width * this.height)
 	}
 }
 
 class cuboidChild extends CuboidMakerTwo {
   constructor(attributes){
-    super(attributes){
+    super(attributes)
+    this.length = 4;
+    this.width = 5;
+    this.height = 5;
   }
 }
 
